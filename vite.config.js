@@ -2,5 +2,6 @@ import tailwindcss from '@tailwindcss/vite'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/alaa-course-landing/'
+  base: '/alaa-course-landing/',
+  plugins: [tailwindcss()]
 })
